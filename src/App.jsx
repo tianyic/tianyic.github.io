@@ -47,53 +47,34 @@ function App() {
           <h2>Research Interest</h2>
 
           <p>
-            My research focuses on <strong>Efficient AI</strong>: building <strong>deployable, system-aware machine learning models</strong> that
-            operate reliably under real-world constraints such as limited compute,
-            memory, latency, and hardware heterogeneity.
-            My work emphasizes translating <strong>algorithmic and numerical
-            efficiency</strong> into <strong>production-scale systems</strong>,
-            spanning foundation models, agentic systems, and on-device intelligence.
+            My research focuses on <strong>Efficient AI</strong>: building <strong>deployable, system-aware machine learning models</strong> under
+            practical constraints in compute, memory, latency, and hardware. I aim to translate <strong>algorithmic and numerical efficiency</strong>
+            into <strong>production-scale systems</strong> for foundation models and agentic intelligence.
           </p>
 
           <p>
-            A central theme of my research is <strong>algorithm–system–hardware
-            co-design</strong>, integrating numerical optimization, ML systems,
-            kernel-level acceleration, and end-to-end applications.
-            I also lead and architect <strong>on-device Computer-Using Agents (CUA)</strong> at Microsoft, enabling pixel-level interaction and grounded decision-making
-            on Windows devices.
+            I emphasize <strong>algorithm–system–hardware co-design</strong>, spanning numerical optimization, ML systems, and kernel-level acceleration.
+            I also lead the <strong>on-device Computer-Using Agent (CUA)</strong> effort at Microsoft, enabling pixel-level interaction and grounded decision-making
+            on Windows.
           </p>
 
           <p><strong>My core research domains include:</strong></p>
 
           <ul>
             <li>
-              <strong>Efficient AI & Model Compression</strong>
+              <strong>Efficient AI & Numerical Optimization</strong>
               <br />
-              Structured pruning, sparse activation, quantization-aware training, and
-              knowledge distillation for large language and multimodal models, inference acceleration with hardware awareness and kernel optimization. 
-              (OTO, WINA, DistiLLM, GETA, LoRAShear).
+              Optimization algorithm designs, Structured pruning, sparse activation, quantization-aware training, 
+              knowledge distillation, inference acceleration with hardware awareness and kernel optimization. 
+              (OTO, WINA, DistiLLM, GETA, LoRAShear, etc.).
             </li>
 
             <li>
-              <strong>Numerical Optimization</strong>
-              <br />
-              Optimization-driven model training, pruning-aware and quantization-aware training.
-              Algorithm design with theoretical guarantees, with applications to LLM
-              continuous pre-training optimization and post training etc. 
-            </li>
-
-            <li>
-              <strong>Computer-Using Agents & Agentic AI</strong>
+              <strong>Computer-Using Agents & Machine Learning System</strong>
               <br />
               On-device agents, agentic knowledge graphs, trajectory generation,
-              tool grounding, and scalable evaluation of multimodal agents.
-            </li>
-
-            <li>
-              <strong>Machine Learning Systems</strong>
-              <br />
-              Large-scale training and inference pipelines, distributed experimentation,
-              reliability at scale, and research-to-production system integration.
+              tool grounding, and scalable evaluation of multimodal agents. LLM continuous pre-training optimization and post training.
+              (CUA-KG, PhiGround, WinSpot, etc.).
             </li>
 
             <li>
