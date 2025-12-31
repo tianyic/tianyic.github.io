@@ -47,14 +47,9 @@ function App() {
           <h2>Research Interest</h2>
 
           <p>
-            My research focuses on <strong>Efficient AI</strong>: building <strong>deployable, system-aware machine learning models</strong> under
-            practical constraints in compute, memory, latency, and hardware. I aim to translate <strong>algorithmic and numerical efficiency</strong>
-            into <strong>production-scale systems</strong> for foundation models and agentic intelligence.
-          </p>
-
-          <p>
-            I emphasize <strong>algorithm–system–hardware co-design</strong>, spanning numerical optimization, ML systems, and kernel-level acceleration.
-            I also lead the <strong>on-device Computer-Using Agent (CUA)</strong> effort at Microsoft, enabling pixel-level interaction and grounded decision-making
+            My research mainly focuses on <strong>efficient AI</strong>, <strong>numerical optimization</strong>, <strong>machine learning systems</strong>, <strong>autoML</strong>, and <strong>foundation models</strong> for real-world applications.
+            I emphasize algorithm–system–hardware co-design, desining algorithms and models with hardware awareness, and implementing them efficiently on modern hardware platforms.
+            I also led the <strong>on-device Computer-Using Agent (CUA)</strong> effort at Microsoft, enabling pixel-level interaction and grounded decision-making
             on Windows.
           </p>
 
