@@ -70,12 +70,12 @@ function App() {
               <strong>Efficient AI & Model Compression</strong>
               <br />
               Structured pruning, sparse activation, quantization-aware training, and
-              knowledge distillation for large language and multimodal models
+              knowledge distillation for large language and multimodal models, inference acceleration with hardware awareness and kernel optimization. 
               (OTO, WINA, DistiLLM, GETA, LoRAShear).
             </li>
 
             <li>
-              <strong>Numerical Optimization for Machine Learning</strong>
+              <strong>Numerical Optimization</strong>
               <br />
               Optimization-driven model training, pruning-aware and quantization-aware training.
               Algorithm design with theoretical guarantees, with applications to LLM
@@ -94,13 +94,6 @@ function App() {
               <br />
               Large-scale training and inference pipelines, distributed experimentation,
               reliability at scale, and research-to-production system integration.
-            </li>
-
-            <li>
-              <strong>Kernel-Level and Hardware-Aware Optimization</strong>
-              <br />
-              GPU/NPU-aware algorithms, kernel optimization, accelerator-friendly
-              architectures, and low-level performance tuning for real-world deployment.
             </li>
 
             <li>
