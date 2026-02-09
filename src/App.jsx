@@ -16,7 +16,7 @@ function App() {
       <main className="content">
         <section id="about">
           <img 
-            src="/tianyi_chen_self_photo.png" 
+            src="/tianyi_chen_self_photo_4.png" 
             alt="Tianyi Chen Name" 
             className="profile-photo"
           />
