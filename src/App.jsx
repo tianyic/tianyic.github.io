@@ -99,7 +99,7 @@ function App() {
         </section>
 
         <section id="publications">
-          <h2>Publications / Preprint (selected)</h2>
+          <h2>Publication / Preprint (selected)</h2>
           
           <div className="publication">
             <div className="pub-image">
