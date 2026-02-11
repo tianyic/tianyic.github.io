@@ -1,0 +1,11 @@
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Rounded white background -->
+  <rect width="256" height="256" rx="48" fill="white"></rect>
+
+  <!-- TC -->
+  <text x="128" y="138" text-anchor="middle" dominant-baseline="middle" font-family="STIX Two Math, Cambria Math, Times New Roman, serif" font-size="180" fill="black">
+    𝒯𝒞
+  </text>
+
+</svg>
