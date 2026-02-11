@@ -61,7 +61,7 @@ function App() {
               <br />
               Optimization algorithm designs, Structured pruning, sparse activation, quantization-aware training, 
               knowledge distillation, inference acceleration with hardware awareness and kernel optimization. 
-              (OTO, WINA, DistiLLM, GETA, LoRAShear, etc.).
+              (OTO, WINA, DistiLLM, StableQAT, GETA, LoRAShear, FORA, SparseCNN, etc.).
             </li>
 
             <li>
@@ -85,20 +85,76 @@ function App() {
         <section id="news">
           <h2>News since 2025</h2>
           <ul className="news-list">
-            <li><strong>[Nov 2025]</strong> ProCrop is accepted by [AAAI 2026].</li>
-            <li><strong>[July 2025]</strong> PhiGround technical report is released. Featured by Top #2 daily paper on Huggingface.</li>
-            <li><strong>[June 2025]</strong> DistiLLM-2 is accepted and selected as [ICML 2025] <strong>Oral (Top 1%)</strong>.</li>
-            <li><strong>[June 2025]</strong> WINA is accepted by [ICML 2025 Workshop]. <a href="https://www.youtube.com/watch?v=8lg_kIzkYt8">Tutorial on Youtube</a> becomes popular.</li>
-            <li><strong>[May 2025]</strong> WinSpot is accepted by [ACL Main 2025].</li>
-            <li><strong>[Apr 2025]</strong> DenoiseNAS is accepted by [Expert Systems with Applications].</li>
-            <li><strong>[Apr 2025]</strong> Two papers are accepted by [CVPR 2025 Workshop].</li>
-            <li><strong>[Feb 2025]</strong> Two papers GETA and AFL are accepted by [CVPR 2025].</li>
+            <li><strong>[Jan 2026]</strong> <span>CUA-Skill preprint is available at <a href="https://arxiv.org/abs/2601.21123">URL</a>.</span></li>
+            <li><strong>[Jan 2026]</strong> <span>StableQAT preprint is available at <a href="https://arxiv.org/abs/2601.19320">URL</a>.</span></li>
+            <li><strong>[Jan 2026]</strong> <span>WINA is accepted by [ICLR 2026]. <a href="https://www.youtube.com/watch?v=8lg_kIzkYt8">Tutorial on Youtube</a> becomes popular.</span></li>
+            <li><strong>[Nov 2025]</strong> <span>ProCrop is accepted by [AAAI 2026].</span></li>
+            <li><strong>[July 2025]</strong> <span>PhiGround technical report is released. Featured by Top #2 daily paper on Huggingface.</span></li>
+            <li><strong>[June 2025]</strong> <span>DistiLLM-2 is accepted and selected as [ICML 2025] <strong>Oral (Top 1%)</strong>.</span></li>
+            <li><strong>[May 2025]</strong> <span>WinSpot is accepted by [ACL Main 2025].</span></li>
+            <li><strong>[Apr 2025]</strong> <span>DenoiseNAS is accepted by [Expert Systems with Applications].</span></li>
+            <li><strong>[Apr 2025]</strong> <span>Two papers are accepted by [CVPR 2025 Workshop].</span></li>
+            <li><strong>[Feb 2025]</strong> <span>Two papers GETA and AFL are accepted by [CVPR 2025].</span></li>
           </ul>
         </section>
 
         <section id="publications">
-          <h2>Publications (selected)</h2>
+          <h2>Publications / Preprint (selected)</h2>
           
+          <div className="publication">
+            <div className="pub-image">
+              <img src="/wina_thumbnail.png" alt="Paper thumbnail" />
+            </div>
+            <div className="pub-content">
+              <p className="pub-authors">
+                Sihan Chen, Dan Zhao, Jongwoo Ko, Colby Banbury, Huiping Zhuang, Luming Liang, <strong>Tianyi Chen</strong>
+              </p>
+              <p className="pub-title">
+                <a href="https://openreview.net/pdf?id=l7Vb3yxmuz">WINA: Weight Informed Neuron Activation for Accelerating Large Language Model Inference</a>
+              </p>
+              <p className="pub-venue">ICLR 2026</p>
+              <p className="pub-links">
+                <a href="https://openreview.net/pdf?id=l7Vb3yxmuz">Paper</a> | <a href="https://github.com/microsoft/wina">Code</a> | <a href="https://www.youtube.com/watch?v=8lg_kIzkYt8">Media</a>
+              </p>
+            </div>
+          </div>
+
+          <div className="publication">
+            <div className="pub-image">
+              <img src="/cua_skill_thumbnail.png" alt="Paper thumbnail" />
+            </div>
+            <div className="pub-content">
+              <p className="pub-authors">
+                <strong>Tianyi Chen</strong>, Yinheng Li, Michael Solodko, Sen Wang, Nan Jiang, Tingyuan Cui, Junheng Hao, Jongwoo Ko, Sara Abdali, Suzhen Zheng, Leon Xu, Hao Fan, Pashmina Cameron, Justin Wagle, Kazuhito Koishida
+              </p>
+              <p className="pub-title">
+                <a href="https://microsoft.github.io/cua_skill/">CUA-Skill: Develop Skills for Computer Using Agent</a>
+              </p>
+              <p className="pub-venue">Preprint</p>
+              <p className="pub-links">
+                <a href="https://microsoft.github.io/cua_skill/">Paper</a> | <a href="https://github.com/microsoft/cua_skill">Code</a>
+              </p>
+            </div>
+          </div>
+
+          <div className="publication">
+            <div className="pub-image">
+              <img src="/stableqat_thumbnail.png" alt="Paper thumbnail" />
+            </div>
+            <div className="pub-content">
+              <p className="pub-authors">
+                <strong>Tianyi Chen</strong>, Sihan Chen, Xiaoyi Qu, Dan Zhao, Ruomei Yan, Jongwoo Ko, Luming Liang, Pashmina Cameron
+              </p>
+              <p className="pub-title">
+                <a href="https://arxiv.org/pdf/2601.19320">StableQAT: Stable Quantization-Aware Training at Ultra-Low Bitwidths</a>
+              </p>
+              <p className="pub-venue">NeurIPS 2021</p>
+              <p className="pub-links">
+                <a href="https://arxiv.org/pdf/2601.19320">Paper</a> | <a href="https://github.com/microsoft/StableQAT">Code</a>
+              </p>
+            </div>
+          </div>
+
           <div className="publication">
             <div className="pub-image">
               <img src="/oto_v1_thumbnail.png" alt="Paper thumbnail" />
@@ -215,7 +271,7 @@ function App() {
         </section> */}
 
         <footer>
-          <p>© 2025 Tianyi Chen. All rights reserved. Last update: Dec 21, 2025.</p>
+          <p>© 2026 Tianyi Chen. All rights reserved. Last update: Feb 11, 2026.</p>
         </footer>
       </main>
     </div>

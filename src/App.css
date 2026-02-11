@@ -147,13 +147,15 @@ a:hover {
 }
 
 .news-list li {
+  display: grid;
+  grid-template-columns: 110px 1fr;
   margin-bottom: 12px;
   padding-left: 0;
 }
 
 .news-list strong {
   color: #000;
-  margin-right: 8px;
+  white-space: nowrap;
 }
 
 /* Publications */
