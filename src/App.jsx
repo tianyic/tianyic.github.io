@@ -148,7 +148,7 @@ function App() {
               <p className="pub-title">
                 <a href="https://arxiv.org/pdf/2601.19320">StableQAT: Stable Quantization-Aware Training at Ultra-Low Bitwidths</a>
               </p>
-              <p className="pub-venue">NeurIPS 2021</p>
+              <p className="pub-venue">Preprint</p>
               <p className="pub-links">
                 <a href="https://arxiv.org/pdf/2601.19320">Paper</a> | <a href="https://github.com/microsoft/StableQAT">Code</a>
               </p>
