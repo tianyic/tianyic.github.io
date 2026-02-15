@@ -29,13 +29,13 @@ function App() {
 
         <footer>
           <p>© 2026 Tianyi Chen. All rights reserved. Last update: Feb 11, 2026.</p>
-          <p className="visitor-counter">
+          {/* <p className="visitor-counter">
             <img 
-              src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Ftianyic.github.io&count_bg=%232C5F8D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Visitors&edge_flat=false" 
+              src="https://visitor-badge.laobi.icu/badge?page_id=tianyic.github.io" 
               alt="Visitors"
-              style={{ display: 'inline-block' }}
+              style={{ verticalAlign: 'middle', marginLeft: '5px' }}
             />
-          </p>
+          </p> */}
         </footer>
       </main>
     </div>
