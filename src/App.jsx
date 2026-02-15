@@ -9,15 +9,11 @@ function App() {
   const BASE_VISITOR_COUNT = 915 // Initial visitor count base
 
   useEffect(() => {
-    // Fetch and increment visitor count using CountAPI
-    fetch('https://api.countapi.xyz/hit/tianyic.github.io/visits')
-      .then(res => {
-        console.log('API Response status:', res.status)
-        return res.json()
-      })
+    // Fetch visitor count using hits.sh API
+    fetch('https://hits.sh/tianyic.github.io.json')
+      .then(res => res.json())
       .then(data => {
-        console.log('API Response data:', data)
-        setVisitorCount(data.value + BASE_VISITOR_COUNT)
+        setVisitorCount(data.hits + BASE_VISITOR_COUNT)
       })
       .catch(err => {
         console.error('Counter error:', err)
