@@ -1,27 +1,9 @@
-import { useState, useEffect } from 'react'
 import { Routes, Route, Link } from 'react-router-dom'
 import Home from './pages/Home'
 import Blogs from './pages/Blogs'
 import './App.css'
 
 function App() {
-  const [visitorCount, setVisitorCount] = useState(null)
-  const BASE_VISITOR_COUNT = 915 // Initial visitor count base
-
-  useEffect(() => {
-    // Fetch visitor count using hits.sh API
-    fetch('https://hits.sh/tianyic.github.io.json')
-      .then(res => res.json())
-      .then(data => {
-        setVisitorCount(data.hits + BASE_VISITOR_COUNT)
-      })
-      .catch(err => {
-        console.error('Counter error:', err)
-        // Set a fallback value if API fails
-        setVisitorCount(BASE_VISITOR_COUNT)
-      })
-  }, [])
-
   return (
     <div className="container">
       <nav className="navbar">
@@ -47,11 +29,13 @@ function App() {
 
         <footer>
           <p>© 2026 Tianyi Chen. All rights reserved. Last update: Feb 11, 2026.</p>
-          {visitorCount !== null && (
-            <p className="visitor-counter">
-              Visitors: {visitorCount.toLocaleString()}
-            </p>
-          )}
+          <p className="visitor-counter">
+            <img 
+              src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Ftianyic.github.io&count_bg=%232C5F8D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Visitors&edge_flat=false" 
+              alt="Visitors"
+              style={{ display: 'inline-block' }}
+            />
+          </p>
         </footer>
       </main>
     </div>
