@@ -1,6 +1,28 @@
+import { useState, useEffect } from 'react'
 import './App.css'
 
 function App() {
+  const [visitorCount, setVisitorCount] = useState(null)
+  const BASE_VISITOR_COUNT = 915 // Initial visitor count base
+
+  useEffect(() => {
+    // Fetch and increment visitor count using CountAPI
+    fetch('https://api.countapi.xyz/hit/tianyic.github.io/visits')
+      .then(res => {
+        console.log('API Response status:', res.status)
+        return res.json()
+      })
+      .then(data => {
+        console.log('API Response data:', data)
+        setVisitorCount(data.value + BASE_VISITOR_COUNT)
+      })
+      .catch(err => {
+        console.error('Counter error:', err)
+        // Set a fallback value if API fails
+        setVisitorCount(BASE_VISITOR_COUNT)
+      })
+  }, [])
+
   return (
     <div className="container">
       <nav className="navbar">
@@ -248,30 +270,13 @@ function App() {
 
         </section>
 
-        {/* <section id="services">
-          <h2>Academic Services</h2>
-          <h3>Conference Reviewer</h3>
-          <ul>
-            <li>Conference Name (Year1, Year2)</li>
-            <li>Another Conference (Year1, Year2)</li>
-          </ul>
-          <h3>Journal Reviewer</h3>
-          <ul>
-            <li>Journal Name (Year -- Present)</li>
-          </ul>
-        </section>
-
-        <section id="awards">
-          <h2>Awards and Honors</h2>
-          <ul>
-            <li>Award Name, Institution, Year</li>
-            <li>Another Award, Institution, Year</li>
-            <li>Scholarship Name, Institution, Year</li>
-          </ul>
-        </section> */}
-
         <footer>
           <p>© 2026 Tianyi Chen. All rights reserved. Last update: Feb 11, 2026.</p>
+          {visitorCount !== null && (
+            <p className="visitor-counter">
+              🌐 Visitors: {visitorCount.toLocaleString()}
+            </p>
+          )}
         </footer>
       </main>
     </div>
