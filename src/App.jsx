@@ -53,7 +53,7 @@ function App() {
           <p>© 2026 Tianyi Chen. All rights reserved. Last update: Feb 11, 2026.</p>
           {visitorCount !== null && (
             <p className="visitor-counter">
-              🌐 Visitors: {visitorCount.toLocaleString()}
+              Visitors: {visitorCount.toLocaleString()}
             </p>
           )}
         </footer>
