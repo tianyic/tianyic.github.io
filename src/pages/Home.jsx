@@ -34,10 +34,9 @@ function Home() {
         <h2>Research Interest</h2>
 
         <p>
-          My research mainly focuses on <strong>efficient AI</strong>, <strong>numerical optimization</strong>, <strong>machine learning systems</strong>, <strong>autoML</strong>, and <strong>foundation models</strong> for real-world applications.
+          My research mainly focuses on <strong>efficient AI</strong>, <strong>numerical optimization (including pre-training, post-training, etc.)</strong>, <strong>machine learning systems</strong>, <strong>autoML</strong>, and <strong>foundation models</strong> for real-world applications.
           I emphasize algorithm–system–hardware co-design, desining algorithms and models with hardware awareness, and implementing them efficiently on modern hardware platforms.
-          I also led the <strong>on-device Computer-Using Agent (CUA)</strong> effort at Microsoft, enabling pixel-level interaction and grounded decision-making
-          on Windows.
+          I also led the <strong>on-device Computer-Using Agent (CUA)</strong> effort at Microsoft, enabling pixel-level, skill-level interaction and grounded decision-making on Windows.
         </p>
 
         <p><strong>My core research domains include:</strong></p>
@@ -52,11 +51,10 @@ function Home() {
           </li>
 
           <li>
-            <strong>Computer-Using Agents & Machine Learning System</strong>
+            <strong>Foundation Model & Computer-Using Agents & Machine Learning System</strong>
             <br />
-            On-device agents, agentic knowledge graphs, trajectory generation,
-            tool grounding, and scalable evaluation of multimodal agents. LLM continuous pre-training optimization and post training.
-            (CUA-KG, PhiGround, WinSpot, etc.).
+            LLM continuous pre-training optimization and post training. On-device agents, agentic knowledge graphs, trajectory generation,
+            tool grounding, and scalable evaluation of multimodal agents. (CUA-KG, PhiGround, WinSpot, etc.).
           </li>
 
           <li>
