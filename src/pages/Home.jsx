@@ -47,7 +47,7 @@ function Home() {
             <br />
             Optimization algorithm design, unstructured/structured pruning, sparse activation, quantization-aware training, 
             knowledge distillation, inference acceleration with hardware awareness and kernel optimization. 
-            (OTO, WINA, DistiLLM, StableQAT, GETA, LoRAShear, FORA, SparseCNN, etc.).
+            (OTO, WINA, DistiLLM, StableQAT, GETA, LoRAShear, FORA, FSCNN, FaRSA, HESSO, HSPG Family, etc.).
           </li>
 
           <li>
