@@ -34,7 +34,7 @@ function Home() {
         <h2>Research Interest</h2>
 
         <p>
-          My research mainly focuses on <strong>efficient AI</strong>, <strong>numerical optimization (including pre-training, post-training, etc.)</strong>, <strong>machine learning systems</strong>, <strong>autoML</strong>, and <strong>foundation models</strong> for real-world applications.
+          My research mainly focuses on <strong>efficient AI</strong>, <strong>numerical optimization (including cardinality optimization, pre-training, post-training, etc.)</strong>, <strong>machine learning systems</strong>, <strong>autoML</strong>, and <strong>foundation models</strong> for real-world applications.
           I emphasize algorithm–system–hardware co-design, desining algorithms and models with hardware awareness, and implementing them efficiently on modern hardware platforms.
           I also led the <strong>on-device Computer-Using Agent (CUA)</strong> effort at Microsoft, enabling pixel-level, skill-level interaction and grounded decision-making on Windows.
         </p>
@@ -45,7 +45,7 @@ function Home() {
           <li>
             <strong>Efficient AI & Numerical Optimization</strong>
             <br />
-            Optimization algorithm designs, Structured pruning, sparse activation, quantization-aware training, 
+            Optimization algorithm design, unstructured/structured pruning, sparse activation, quantization-aware training, 
             knowledge distillation, inference acceleration with hardware awareness and kernel optimization. 
             (OTO, WINA, DistiLLM, StableQAT, GETA, LoRAShear, FORA, SparseCNN, etc.).
           </li>
